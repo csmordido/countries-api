@@ -33,7 +33,7 @@
 const countries = {};
 
 countries.url = 'https://restcountries.eu/rest/v2/name';
-countries.weatherUrl = 'http://api.openweathermap.org/data/2.5/weather';
+countries.weatherUrl = 'https://api.openweathermap.org/data/2.5/weather';
 countries.weatherApiKey = 'c9a747c48bbadd82284c2f57f9cf4656';
 countries.$searchForm = $('form');
 countries.$userInput = $('input[type=text]');
