@@ -1,35 +1,3 @@
-// get the country name from the value inputted on the form's text input
-// use that text input value to search the countries api and get all data about that country
-
-// create function to get the user inputted country's data from the rest countries api
-  // append user inputted country name to html tag
-  // get .capital
-  // get .population
-  // get .currencies[0]
-    // .name, .code, .symbol
-  // get languages[0]
-    // .name
-  // get timezones[0]
-  // append all data into corresponding html tag
-
-// create function to get the country's capital weather information
-  // get current temperature
-  // get high and low temperature
-  // get weather description
-  // get humidity
-  // append all data to corresponding html tag
-
-// create event listener on form to listen to submit and trigger:
-  // 1. getting all data
-  // 2. hide search page and display load page
-  // 3. fade out load page and display main page
-
-////// TO DO //////
-// create event listener on a button to:
-  // 1. fade in search page again
-  // 2. empty html tags
-
-
 const countries = {};
 
 countries.url = 'https://restcountries.eu/rest/v2/name';
