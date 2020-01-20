@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi|Titillium+Web&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="reset.css">
+  <script src="https://kit.fontawesome.com/f66c1e0420.js" crossorigin="anonymous"></script>
+  <title>Countries</title>
+</head>
+<body>
+  <header>
+      <div class="logo">
+        <i class="fas fa-globe"></i><p>Countries</p>
+      </div>
+      <p>Weather and General Information on Countries and its Capital</p>
+  </header>
+
+  <!-- search form -->
+  <section class="search">
+    <form action="#">
+      <input type="text" name="country-search" placeholder="Search for a Country" id="country-search">
+      <button type="submit" id="submit"><i class="fas fa-search"></i></button>
+    </form>    
+  </section>
+  <!-- end of search form --> 
+
+  <!-- search results -->
+  <main>
+    <div class="purple-bg">
+      <div class="country">                
+      </div>
+      <div class="main-data">
+        <div class="country-info">
+          <div class="capital">
+            <h3>Capital</h3>            
+          </div>
+          <div class="population">
+            <h3>Population</h3>            
+          </div>
+          <div class="currency">
+            <h3>Currency</h3>            
+          </div>
+          <div class="language">
+            <h3>Language(s)</h3>            
+          </div>
+          <div class="timezone">
+            <h3>Timezone(s)</h3>            
+          </div>
+        </div>
+      
+        <div class="weather">
+          <div class="main-temperature">            
+          </div>          
+          <div class="temperature-range">            
+          </div>
+          <div class="border"></div>
+          <div class="state">             
+          </div>
+          <div class="border"></div>
+          <div class="humidity">            
+          </div>
+        </div>
+      </div>
+      <button id="back-to-search" type="button" title="Search another country"><i class="fas fa-search"></i></button>
+    </div>
+  </main>
+  <!-- end of search results -->
+
+  <!-- loading page -->
+  <section class="load-page">
+      <i class="fas fa-compass"></i>
+      <p>Getting data...</p>
+  </section>
+  <!-- end of load page -->  
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="script.js"></script>  
+</body>
+</html>
